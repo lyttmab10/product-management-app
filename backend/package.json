@@ -1,15 +1,15 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "Restful API For product ",
+  "description": "Restful API for Product Management App",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "Saharat Bj.",
+  "author": "Athip Poosomboon",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.6",
