@@ -1,8 +1,8 @@
-import { BrowserRouter, Navigate, Route, Routes } from "react-router"
+import { BrowserRouter, Navigate, Route, Routes } from "react-router";
 
-import AddProductPage from "./pages/AddProductPage.jsx"
-import EditProductPage from "./pages/EditProductPage.jsx"
-import ProductPage from "./pages/ProductPage.jsx"
+import AddProductPage from "./pages/AddProductPage.jsx";
+import EditProductPage from "./pages/EditProductPage.jsx";
+import ProductPage from "./pages/ProductPage.jsx";
 
 function App() {
   return (
@@ -16,5 +16,5 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-};
+}
 export default App;
